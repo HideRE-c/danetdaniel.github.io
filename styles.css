@@ -110,6 +110,10 @@ nav .logo a {
   padding: 10px;
 }
 
+.content .sec2 h1 {
+  letter-spacing: 2px;
+}
+
 .content .sec2 .fa-list-ul {
   font-size: 20vw;
   color: #dfe6e9;
@@ -132,6 +136,10 @@ nav .logo a {
   border: 3px solid #ffeaa7;
   border-radius: 20px;
   padding: 10px;
+}
+
+.content .sec3 h1 {
+  letter-spacing: 2px;
 }
 
 .content .sec3 .fa-handshake {
