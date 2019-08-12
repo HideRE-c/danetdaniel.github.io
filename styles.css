@@ -41,44 +41,12 @@ nav .logo {
 }
 
 nav .logo span {
-  border: 2px solid #ecf0f1;
-  padding: 3px;
+  border-bottom: 4px solid #ecf0f1;
 }
 
 nav .logo a {
   text-decoration: none;
   color: #ecf0f1;
-}
-
-nav .nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 5%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-nav .nav-links .nav-btn {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  list-style: none;
-  text-decoration: none;
-  color: #ecf0f1;
-  margin: 3% 5vw;
-  border-bottom: 0.5vw solid #ecf0f1;
-}
-
-nav .nav-links #active {
-  width: auto;
-  padding: 5px;
-  background: #ecf0f1;
-  color: #2d3436;
-  -webkit-box-shadow: 0vw 1vw #0984e3;
-          box-shadow: 0vw 1vw #0984e3;
 }
 
 .content {
@@ -92,7 +60,7 @@ nav .nav-links #active {
   font-size: 5vw;
 }
 
-.content .sec2 {
+.content .sec1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,19 +72,71 @@ nav .nav-links #active {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background: #6c5ce7;
+  border: 2px solid #a29bfe;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-.content .sec2 h1 {
+.content .sec1 h1 {
   letter-spacing: 2px;
 }
 
-.content .sec2 .fa-fighter-jet {
+.content .sec1 .fa-fighter-jet {
   font-size: 10vw;
-  color: #55efc4;
+  color: #dfe6e9;
   margin: 3vw;
   padding: 5vw;
-  border: 2vw solid #55efc4;
+  border: 2vw solid #dfe6e9;
   border-radius: 100px;
+}
+
+.content .sec2 {
+  background: #0984e3;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.content .sec2 .fa-list-ul {
+  font-size: 20vw;
+  color: #dfe6e9;
+}
+
+.content .sec3 {
+  background: #fdcb6e;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: 3px solid #ffeaa7;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.content .sec3 .fa-handshake {
+  font-size: 20vw;
+  color: #dfe6e9;
 }
 
 footer {

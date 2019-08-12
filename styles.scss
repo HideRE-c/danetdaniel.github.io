@@ -27,39 +27,12 @@ nav{
         color: #ecf0f1;
 
         span{
-            border: 2px solid #ecf0f1;
-            padding: 3px;
+            border-bottom: 4px solid #ecf0f1;
         }
 
         a{
             text-decoration: none;
             color: #ecf0f1;
-        }
-    }
-
-    .nav-links{
-        display: flex;
-        margin-top: 5%;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        .nav-btn{
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
-            list-style: none;
-            text-decoration: none;
-            color: #ecf0f1;
-            margin: 3% 5vw;
-            border-bottom: 0.5vw solid #ecf0f1;
-            }
-        
-        #active{
-            width: auto;
-            padding: 5px;
-            background: #ecf0f1;
-            color: #2d3436;
-            box-shadow: 0vw 1vw #0984e3;
-            
         }
     }
 }
@@ -74,11 +47,15 @@ nav{
         font-size: 5vw;
     }
 
-    .sec2{
+    .sec1{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        background: #6c5ce7;
+        border: 2px solid #a29bfe;
+        border-radius: 20px;
+        padding: 10px;
 
         h1{
             letter-spacing: 2px;
@@ -86,14 +63,48 @@ nav{
 
         .fa-fighter-jet{
             font-size: 10vw;
-            color:#55efc4;
+            color:#dfe6e9;
             margin: 3vw;
             padding: 5vw;
-            border: 2vw solid #55efc4;
+            border: 2vw solid #dfe6e9;
             border-radius: 100px;
 
         }
 
+    }
+
+    .sec2{
+        background: #0984e3;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: 3px solid #74b9ff;
+        border-radius: 20px;
+        padding: 10px;
+
+        .fa-list-ul{
+            font-size: 20vw;
+            color: #dfe6e9;
+        }
+    }
+
+    .sec3{
+        background: #fdcb6e;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: 3px solid #ffeaa7;
+        border-radius: 20px;
+        padding: 10px;
+
+        .fa-handshake{
+            font-size: 20vw;
+            color: #dfe6e9;
+        }
     }
 }
 
