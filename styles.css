@@ -18,9 +18,14 @@ body {
 
 .content {
   padding: 2vw;
-  background: #ffffff;
-  color: #ffffff;
+  background: #ecf0f1;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
+}
+
+.content .content-img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .content p {
@@ -39,8 +44,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: #636e72;
-  border-bottom: 3px solid #d63031;
   border-radius: 5px;
   padding: 10px;
 }
@@ -49,17 +52,7 @@ body {
   letter-spacing: 2px;
 }
 
-.content .sec1 .fa-fighter-jet {
-  font-size: 10vw;
-  color: #ffffff;
-  margin: 3vw;
-  padding: 5vw;
-  border: 2vw solid #ffffff;
-  border-radius: 100px;
-}
-
 .content .sec2 {
-  background: #636e72;
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,8 +65,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border-bottom: 3px solid #d63031;
-  border-radius: 5px;
   padding: 10px;
 }
 
@@ -81,13 +72,7 @@ body {
   letter-spacing: 2px;
 }
 
-.content .sec2 .fa-list-ul {
-  font-size: 20vw;
-  color: #ffffff;
-}
-
 .content .sec3 {
-  background: #636e72;
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,8 +85,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border-bottom: 3px solid #d63031;
-  border-radius: 5px;
   padding: 10px;
 }
 
@@ -109,13 +92,7 @@ body {
   letter-spacing: 2px;
 }
 
-.content .sec3 .fa-handshake {
-  font-size: 20vw;
-  color: #ffffff;
-}
-
 .content .sec4 {
-  background: #636e72;
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,14 +105,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border-bottom: 3px solid #d63031;
-  border-radius: 5px;
   padding: 10px;
-}
-
-.content .sec4 .fa-paper-plane {
-  font-size: 20vw;
-  color: #ffffff;
 }
 
 .content .sec4 .form {
@@ -156,17 +126,22 @@ body {
 
 .content .sec4 .form h1 {
   margin: 10px;
+  margin-bottom: 15px;
   letter-spacing: 2px;
 }
 
 .content .sec4 .form input[type="text"] {
   width: 300px;
-  height: 30px;
+  height: 60px;
+  font-size: 5vw;
+  border-radius: 5px;
 }
 
 .content .sec4 .form input[type="email"] {
   width: 300px;
-  height: 30px;
+  height: 60px;
+  font-size: 5vw;
+  border-radius: 5px;
 }
 
 .content .sec4 .form input[type="submit"] {

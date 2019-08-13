@@ -13,9 +13,14 @@ body{
 
 .content{
     padding: 2vw;
-    background: #ffffff;
-    color: #ffffff;
+    background: #ecf0f1;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
+
+    .content-img{
+        width: 100%;
+        border-radius: 5px;
+    }
 
     p{
         font-size: 5vw;
@@ -26,84 +31,47 @@ body{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background: #636e72;
-        border-bottom: 3px solid #d63031;
         border-radius: 5px;
         padding: 10px;
 
         h1{
             letter-spacing: 2px;
         }
-
-        .fa-fighter-jet{
-            font-size: 10vw;
-            color:#ffffff;
-            margin: 3vw;
-            padding: 5vw;
-            border: 2vw solid #ffffff;
-            border-radius: 100px;
-
-        }
-
     }
 
     .sec2{
-        background: #636e72;
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        border-bottom: 3px solid #d63031;
-        border-radius: 5px;
         padding: 10px;
 
         h1{
             letter-spacing: 2px;
-        }
-
-        .fa-list-ul{
-            font-size: 20vw;
-            color: #ffffff;
         }
     }
 
     .sec3{
-        background: #636e72;
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        border-bottom: 3px solid #d63031;
-        border-radius: 5px;
         padding: 10px;
 
         h1{
             letter-spacing: 2px;
         }
-
-        .fa-handshake{
-            font-size: 20vw;
-            color: #ffffff;
-        }
     }
 
     .sec4{
-        background: #636e72;
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        border-bottom: 3px solid #d63031;
-        border-radius: 5px;
         padding: 10px;
-
-        .fa-paper-plane{
-            font-size: 20vw;
-            color: #ffffff;
-        }
 
         .form{
             display: flex;
@@ -113,17 +81,22 @@ body{
 
             h1{
                 margin: 10px;
+                margin-bottom: 15px;
                 letter-spacing: 2px;
             }
 
             input[type="text"]{
                 width: 300px;
-                height: 30px;
+                height: 60px;
+                font-size: 5vw;
+                border-radius: 5px;
             }
 
             input[type="email"]{
                 width: 300px;
-                height: 30px;
+                height: 60px;
+                font-size: 5vw;
+                border-radius: 5px;
             }
 
             input[type="submit"]{
