@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  height: 1vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 1fr 5%;
+      grid-template-columns: 5% 1fr 5%;
+}
+
+.main .intro {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.main .intro .logo {
+  width: 100%;
+}
+
+.main .intro .fa-wine-glass-alt {
+  color: blue;
+  font-size: 20vw;
+  margin: 10px;
+}
+
+.main .intro p {
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.main .intro .fa-money-bill-wave {
+  color: blue;
+  font-size: 15vw;
+  margin: 10px;
+}
+/*# sourceMappingURL=main.css.map */

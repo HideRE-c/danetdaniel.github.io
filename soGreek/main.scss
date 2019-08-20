@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 1vh;
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+
+    .intro{
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .logo{
+            width: 100%;
+        }
+
+        .fa-wine-glass-alt{
+            color: blue;
+            font-size: 20vw;
+            margin: 10px;
+        }
+
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: larger;
+            font-weight: 500;
+        }
+
+        .fa-money-bill-wave{
+            color: blue;
+            font-size: 15vw;
+            margin: 10px;
+        }
+    }
+}

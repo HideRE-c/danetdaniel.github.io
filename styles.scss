@@ -73,6 +73,45 @@ body{
         text-align: center;
         padding: 10px;
 
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec5{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec6{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec7{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
         .form{
             display: flex;
             flex-direction: column;
@@ -111,6 +150,19 @@ body{
                 border-bottom: 2px solid #d63031;
                 border-radius: 5px;
             }
+        }
+    }
+
+    .sec8{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
         }
     }
 }
