@@ -38,5 +38,17 @@
             font-size: 15vw;
             margin: 10px;
         }
+
+        .animals{
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid blue;
+            border-radius: 20px;
+
+            .fa-paw{
+                color: blue;
+                font-size: 20vw;
+            }
+        }
     }
 }
