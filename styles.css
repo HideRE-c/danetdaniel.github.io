@@ -75,6 +75,17 @@ nav {
   border-radius: 0px 0px 20px 20px;
 }
 
+nav .logo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  justify-self: center;
+  color: #ecf0f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 nav .nav-container {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -131,9 +142,17 @@ nav .nav-container a .nav-link-container .icon {
   padding: 2%;
   color: #ecf0f1;
   font-family: "Poppins", sans-serif;
+  font-size: small;
   text-align: center;
   letter-spacing: 2px;
   border-radius: 10px;
+}
+
+.hello .profile-pic {
+  width: 40%;
+  border: 2px solid #2980b9;
+  border-radius: 100px;
+  margin: 10px;
 }
 
 .hello .underlined {
@@ -157,6 +176,7 @@ nav .nav-container a .nav-link-container .icon {
 .hello .floatAnim {
   -webkit-animation: float 2s infinite;
           animation: float 2s infinite;
+  width: 15%;
 }
 
 .hello .desc {
@@ -174,7 +194,7 @@ nav .nav-container a .nav-link-container .icon {
 }
 
 .hello .skillContainer .skill-icon {
-  font-size: 20vw;
+  font-size: 15vw;
   color: #ecf0f1;
   margin: 20px;
   -ms-grid-column: 1;
@@ -242,5 +262,24 @@ nav .nav-container a .nav-link-container .icon {
 
 .hello .projects-container .project a {
   text-decoration: none;
+  color: #ecf0f1;
+}
+
+.hello .projects-container .project .project-btn {
+  text-decoration: none;
+  color: #ecf0f1;
+  background: transparent;
+  border: 2px solid #2980b9;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  margin: 10px 0px 10px 0px;
+}
+
+.hello .projects-container .project .project-btn:hover {
+  background: #3498db;
+  border: 2px solid #2980b9;
+  border-bottom: 4px solid #2980b9;
 }
 /*# sourceMappingURL=styles.css.map */
