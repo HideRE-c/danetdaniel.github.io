@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    padding: 2vw;
+    background: #ecf0f1;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+    .content-img{
+        width: 96vw;
+        border-radius: 5px;
+    }
+
+    p{
+        font-size: 5vw;
+    }
+
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec2{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec3{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec4{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec5{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec6{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+
+    .sec7{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1{
+                margin: 10px;
+                margin-bottom: 15px;
+                letter-spacing: 2px;
+            }
+
+            input[type="text"]{
+                width: 300px;
+                height: 60px;
+                font-size: 5vw;
+                border-radius: 5px;
+            }
+
+            input[type="email"]{
+                width: 300px;
+                height: 60px;
+                font-size: 5vw;
+                border-radius: 5px;
+            }
+
+            input[type="submit"]{
+                width: 100px;
+                height: 50px;
+                background: black;
+                font-family: 'Roboto', sans-serif;
+                color: #ffffff;
+                font-size: 100%;
+                letter-spacing: 2px;
+                border: 0px;
+                border-bottom: 2px solid #d63031;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .sec8{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+
+        h1{
+            letter-spacing: 2px;
+        }
+    }
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    height: 60px;
+    width: 100%;
+    padding: 5vw;
+    color: #ecf0f1;
+    background: #2d3436;
+    align-self: flex-end;
+    text-align: center;
+    letter-spacing: 2px;
+}

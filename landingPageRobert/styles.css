@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  padding: 2vw;
+  background: #ecf0f1;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content .content-img {
+  width: 96vw;
+  border-radius: 5px;
+}
+
+.content p {
+  font-size: 5vw;
+}
+
+.content .sec1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.content .sec1 h1 {
+  letter-spacing: 2px;
+}
+
+.content .sec2 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec2 h1 {
+  letter-spacing: 2px;
+}
+
+.content .sec3 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec3 h1 {
+  letter-spacing: 2px;
+}
+
+.content .sec4 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec4 h1 {
+  letter-spacing: 2px;
+}
+
+.content .sec5 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec5 h1 {
+  letter-spacing: 2px;
+}
+
+.content .sec6 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec6 h1 {
+  letter-spacing: 2px;
+}
+
+.content .sec7 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec7 .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .sec7 .form h1 {
+  margin: 10px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.content .sec7 .form input[type="text"] {
+  width: 300px;
+  height: 60px;
+  font-size: 5vw;
+  border-radius: 5px;
+}
+
+.content .sec7 .form input[type="email"] {
+  width: 300px;
+  height: 60px;
+  font-size: 5vw;
+  border-radius: 5px;
+}
+
+.content .sec7 .form input[type="submit"] {
+  width: 100px;
+  height: 50px;
+  background: black;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 100%;
+  letter-spacing: 2px;
+  border: 0px;
+  border-bottom: 2px solid #d63031;
+  border-radius: 5px;
+}
+
+.content .sec8 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.content .sec8 h1 {
+  letter-spacing: 2px;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  height: 60px;
+  width: 100%;
+  padding: 5vw;
+  color: #ecf0f1;
+  background: #2d3436;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: center;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=styles.css.map */
