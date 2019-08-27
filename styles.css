@@ -214,7 +214,7 @@ nav .nav-container a .nav-link-container .icon {
       grid-template-columns: 1fr 2fr 2fr 1fr;
   -ms-grid-rows: 0.2fr 1fr;
       grid-template-rows: 0.2fr 1fr;
-      grid-template-areas: ". skilledIn . ." ". html5Icon css3Icon .";
+      grid-template-areas: ". skilledIn . ." ". html5Icon css3Icon ." ". html5Write css3Write .";
 }
 
 .hello .skillContainer .skill-icon {
@@ -238,6 +238,18 @@ nav .nav-container a .nav-link-container .icon {
   -ms-grid-column: 3;
   grid-area: css3Icon;
   color: #3498db;
+}
+
+.hello .skillContainer .html5Write {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: html5Write;
+}
+
+.hello .skillContainer .css3Write {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: css3Write;
 }
 
 .hello .skillContainer p {

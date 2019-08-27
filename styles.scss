@@ -148,7 +148,8 @@ nav{
         grid-template-rows: 0.2fr 1fr;
         grid-template-areas:
             ". skilledIn . ."
-            ". html5Icon css3Icon .";
+            ". html5Icon css3Icon ."
+            ". html5Write css3Write .";
 
         .skill-icon{
             font-size: 15vw;
@@ -165,6 +166,14 @@ nav{
         .css3-icon{
             grid-area: css3Icon;
             color: #3498db;
+        }
+
+        .html5Write{
+            grid-area: html5Write;
+        }
+
+        .css3Write{
+            grid-area: css3Write;
         }
 
         p{
