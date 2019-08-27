@@ -244,12 +244,14 @@ nav .nav-container a .nav-link-container .icon {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: html5Write;
+  font-size: 80%;
 }
 
 .hello .skillContainer .css3Write {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: css3Write;
+  font-size: 80%;
 }
 
 .hello .skillContainer p {
