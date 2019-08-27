@@ -1,51 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes float {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
-@keyframes float {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +13,8 @@ body {
   -ms-grid-columns: 5% 1fr 5%;
       grid-template-columns: 5% 1fr 5%;
   font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 body footer {
@@ -89,6 +44,7 @@ nav {
   background: black;
   border-bottom: 10px solid #2b2b2b;
   border-top: none;
+  height: 25vh;
 }
 
 nav .logo {
@@ -147,6 +103,38 @@ nav .nav-container a .nav-link-container .icon {
   color: #ecf0f1;
 }
 
+.imgContainer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  position: relative;
+}
+
+.imgContainer p {
+  position: absolute;
+  font-size: x-large;
+  color: #ecf0f1;
+  text-shadow: #2b2b2b;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+  border: 2px solid #ecf0f1;
+  background: rgba(43, 43, 43, 0.8);
+  padding: 2%;
+}
+
+.imgContainer .sectionImg {
+  width: 100%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .hello {
   height: 100%;
   -ms-grid-column: 2;
@@ -195,12 +183,6 @@ nav .nav-container a .nav-link-container .icon {
           animation-direction: normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-}
-
-.hello .floatAnim {
-  -webkit-animation: float 2s infinite;
-          animation: float 2s infinite;
-  width: 15%;
 }
 
 .hello .desc {
