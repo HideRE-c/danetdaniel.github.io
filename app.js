@@ -1,7 +1,11 @@
-// window.onload=function(){
-//     let adderOfClasses = document.querySelector(".classToggler");
+window.onload=function(){
+    let darkToggler = document.querySelector(".darkModeButton");
+    let body = document.querySelector("nav");
+    
+    body.classList.add(".normal");
 
-//     adderOfClasses.addEventListener("click", function() {
-//         adderOfClasses.classList.toggle("toggleMe");
-//     })
-// }
+    darkToggler.addEventListener("click", function() {
+        darkToggler.classList.toggle(".darkModeActive");
+        body.classList.toggle(".darkModeActive");
+    })
+}
