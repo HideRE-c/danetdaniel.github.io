@@ -1,11 +1,17 @@
 window.onload=function(){
-    let darkToggler = document.querySelector(".darkModeButton");
-    let body = document.querySelector("nav");
-    
-    body.classList.add(".normal");
+    let menuIcon = document.querySelector(".menu-icon");
+    let topBar = document.querySelector(".top-bar");
+    let midBar = document.querySelector(".middle-bar");
+    let bottomBar = document.querySelector(".bottom-bar");
+    let nav = document.querySelector(".nav-container");
 
-    darkToggler.addEventListener("click", function() {
-        darkToggler.classList.toggle(".darkModeActive");
-        body.classList.toggle(".darkModeActive");
+    nav.classList.add("no-display");
+
+    menuIcon.addEventListener("click", function(){
+        topBar.classList.toggle("top-active");
+        midBar.classList.toggle("middle-active");
+        bottomBar.classList.toggle("bottom-active");
+        nav.classList.toggle("no-display");
+        nav.classList.toggle("fade-anim");
     })
 }
