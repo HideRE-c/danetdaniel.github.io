@@ -55,11 +55,7 @@ nav{
     background: white;
     border-bottom: 10px solid #eeeeee;
     border-top: none;
-    height: auto;
-    // position: fixed;
-    // top: 0px;
-    // width: 100vw;
-    // z-index: 12;
+    height: 10vh;
 
     .menu-icon{
         grid-column: 2/3;
@@ -99,41 +95,60 @@ nav{
         grid-row: 1/2;
         align-self: center;
     }    
+}
 
-    .nav-container{
-        grid-column: 2/3;
-        display: flex;
-        justify-content: center;
+@keyframes menuAnim{
+    from{
+        transform: translateX(-150%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
 
-        &.no-display{
-            display: none;
-        }
-    
+.onScreen{
+    animation: menuAnim 0.5s forwards;
+    // transform: translateX(0%);
+}
 
-        .active{
-            border-bottom: 3px solid black;
-        }
+.nav-container{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(-150%);
+    position: absolute;
+    z-index: 15;
+    top: 10vh;
+    background: white;
+    border-radius: 0px 0px 20px 0px;
+    padding: 5px;
+    box-shadow: 3px 3px #eeeeee80;
+    // transition: 50ms;
 
-        a{
-            text-decoration: none;
+    .active{
+        border-bottom: 3px solid black;
+    }
+
+    a{
+        text-decoration: none;
+        margin: 5%;
+
+        .nav-link-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            letter-spacing: 2px;
             margin: 5%;
+            cursor: pointer;
 
-            .nav-link-container{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+            .icon{
                 color: black;
-                font-family: 'Poppins', sans-serif;
-                font-weight: 600;
-                letter-spacing: 2px;
-                margin: 5%;
-                cursor: pointer;
-
-                .icon{
-                    color: black;
-                }
-
             }
+
         }
     }
 }

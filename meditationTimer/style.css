@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 3fr 10%;
+      grid-template-columns: 10% 3fr 10%;
+  -ms-grid-rows: 5vh 1fr 3fr 0.5fr 1fr;
+      grid-template-rows: 5vh 1fr 3fr 0.5fr 1fr;
+      grid-template-areas: "nav nav nav" ". anim ." ". main ." "space space space" "footer footer footer";
+  min-height: 100vh;
+  background: #1c013d;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1c013d), to(#c700f7));
+  background: linear-gradient(0deg, #1c013d 0%, #c700f7 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+body .hero {
+  padding: 5%;
+  background: white;
+  border: 3px solid #eeeeee80;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+  50% {
+    -webkit-transform: translateY(-3vh);
+            transform: translateY(-3vh);
+  }
+  100% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+  50% {
+    -webkit-transform: translateY(-3vh);
+            transform: translateY(-3vh);
+  }
+  100% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+}
+
+.hero {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: anim;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-animation: float 3s infinite;
+          animation: float 3s infinite;
+}
+
+.main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: main;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  border-radius: 20px;
+  background: white;
+  -webkit-box-shadow: 3px 3px #eeeeee80;
+          box-shadow: 3px 3px #eeeeee80;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 1fr 5%;
+      grid-template-columns: 5% 1fr 5%;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: ". titleText ." ". timer ." ". buttons .";
+}
+
+.main .titleText {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: titleText;
+  text-align: center;
+  padding: 3px;
+}
+
+.main .timerContainer {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: timer;
+  text-align: center;
+}
+
+.main .btnContainer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: buttons;
+  justify-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .btnContainer .btn {
+  background: #a100f7;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Poppins", sans-serif;
+  background: white;
+  width: 100%;
+  padding: 5%;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 3px 3px #eeeeee80;
+          box-shadow: 3px 3px #eeeeee80;
+  margin: 5px;
+  border: 3px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

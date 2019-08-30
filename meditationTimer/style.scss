@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 10% 3fr 10%;
+    grid-template-rows: 5vh 1fr 3fr 0.5fr 1fr;
+    grid-template-areas: "nav nav nav"
+                         ". anim ."
+                         ". main ."
+                         "space space space"
+                         "footer footer footer";
+    min-height: 100vh;
+    background: rgb(28,1,61);
+    background: linear-gradient(0deg, rgba(28,1,61,1) 0%, rgba(199,0,247,1) 100%);
+    font-family: "Poppins", sans-serif;
+
+    .hero{
+        padding: 5%;
+        background: white;
+        border: 3px solid #eeeeee80;
+        border-radius: 50%;
+    }
+
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0vh);
+    }
+    50%{
+        transform: translateY(-3vh);
+    }
+    100%{
+        transform: translateY(0vh);
+    }
+}
+
+.hero{
+    grid-area: anim;
+    justify-self: center;
+    align-self: center;
+    animation: float 3s infinite;
+}
+
+.main{
+    grid-area: main;
+    justify-self: stretch;
+    align-self: stretch;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 3px 3px #eeeeee80;
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". titleText ."
+                         ". timer ."
+                         ". buttons .";
+
+    .titleText{
+        grid-area: titleText;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .timerContainer{
+        grid-area: timer;
+        text-align: center;
+    }
+
+    .btnContainer{
+        grid-area: buttons;
+        justify-self: stretch;
+        display: flex;
+
+        .btn{
+            background: #a100f7;
+            justify-self: center;
+            align-self: center;
+            font-family: "Poppins", sans-serif;
+            background: white;
+            width: 100%;
+            padding: 5%;
+            font-size: larger;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 3px 3px #eeeeee80;
+            margin: 5px;
+            border: 3px solid black;
+            border-bottom: 5px solid black;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
+}

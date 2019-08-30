@@ -84,7 +84,7 @@ nav {
   background: white;
   border-bottom: 10px solid #eeeeee;
   border-top: none;
-  height: auto;
+  height: 10vh;
 }
 
 nav .menu-icon {
@@ -143,32 +143,69 @@ nav .logo {
       align-self: center;
 }
 
-nav .nav-container {
+@-webkit-keyframes menuAnim {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes menuAnim {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+.onScreen {
+  -webkit-animation: menuAnim 0.5s forwards;
+          animation: menuAnim 0.5s forwards;
+}
+
+.nav-container {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  position: absolute;
+  z-index: 15;
+  top: 10vh;
+  background: white;
+  border-radius: 0px 0px 20px 0px;
+  padding: 5px;
+  -webkit-box-shadow: 3px 3px #eeeeee80;
+          box-shadow: 3px 3px #eeeeee80;
 }
 
-nav .nav-container.no-display {
-  display: none;
-}
-
-nav .nav-container .active {
+.nav-container .active {
   border-bottom: 3px solid black;
 }
 
-nav .nav-container a {
+.nav-container a {
   text-decoration: none;
   margin: 5%;
 }
 
-nav .nav-container a .nav-link-container {
+.nav-container a .nav-link-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,7 +224,7 @@ nav .nav-container a .nav-link-container {
   cursor: pointer;
 }
 
-nav .nav-container a .nav-link-container .icon {
+.nav-container a .nav-link-container .icon {
   color: black;
 }
 
