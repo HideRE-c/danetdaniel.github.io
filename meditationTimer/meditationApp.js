@@ -1,3 +1,21 @@
+          // Menu function
+let menuIcon = document.querySelector(".menu-btn");
+let topBar = document.querySelector(".top-bar");
+let midBar = document.querySelector(".middle-bar");
+let bottomBar = document.querySelector(".bottom-bar");
+let nav = document.querySelector(".nav-links");
+
+// nav.classList.add("no-display");
+
+menuIcon.addEventListener("click", function(){
+    topBar.classList.toggle("top-active");
+    midBar.classList.toggle("middle-active");
+    bottomBar.classList.toggle("bottom-active");
+    nav.classList.toggle("visible");
+    // nav.classList.toggle("fade-anim");
+})
+
+          // Timer functions
 document.getElementById('timer').innerHTML =
   05 + ":" + 00;
 

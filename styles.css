@@ -459,4 +459,36 @@ nav .logo {
   border-bottom: 4px solid black;
   color: #ecf0f1;
 }
+
+@media only screen and (min-width: 768) {
+  /* For desktop */
+  nav {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 5% 1fr 5%;
+        grid-template-columns: 5% 1fr 5%;
+    background: white;
+    border-bottom: 10px solid #eeeeee;
+    border-top: none;
+    height: 10vh;
+  }
+  nav .logo {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    justify-self: flex-end;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

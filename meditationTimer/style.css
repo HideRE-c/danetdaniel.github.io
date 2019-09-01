@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -18,7 +18,7 @@ body {
   background: #1c013d;
   background: -webkit-gradient(linear, left bottom, left top, from(#1c013d), to(#c700f7));
   background: linear-gradient(0deg, #1c013d 0%, #c700f7 100%);
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 body .hero {
@@ -69,6 +69,77 @@ body .hero {
       align-self: center;
   -webkit-animation: float 3s infinite;
           animation: float 3s infinite;
+}
+
+nav .visible {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+nav .top-active {
+  -webkit-transform: translateY(6px) rotate(45deg);
+          transform: translateY(6px) rotate(45deg);
+}
+
+nav .middle-active {
+  display: none;
+}
+
+nav .bottom-active {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+nav .menu-btn {
+  cursor: pointer;
+  top: 3%;
+  left: 5%;
+  position: fixed;
+  z-index: 5;
+}
+
+nav .menu-btn .menu-bar {
+  margin: 3px;
+  width: 20px;
+  height: 3px;
+  background: black;
+  border-radius: 20px;
+}
+
+nav .nav-links {
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  background: white;
+  position: fixed;
+  -webkit-box-shadow: 3px 3px #eeeeee80;
+          box-shadow: 3px 3px #eeeeee80;
+  font-size: 1rem;
+  width: auto;
+  padding: 10px;
+  padding-top: 15%;
+  z-index: 2;
+  -webkit-transition: all 0.5s ease 0.2s;
+  transition: all 0.5s ease 0.2s;
+}
+
+nav .nav-links .link {
+  margin-top: 10%;
+  margin-bottom: 40%;
+}
+
+nav .nav-links .link a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
 }
 
 .main {
