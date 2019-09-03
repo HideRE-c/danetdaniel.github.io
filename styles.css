@@ -805,6 +805,8 @@ nav .logo {
             box-shadow: 3px 3px #eeeeee80;
     margin-bottom: 20px;
     min-height: 100vh;
+    -webkit-box-shadow: 5px 5px #00000010;
+            box-shadow: 5px 5px #00000010;
   }
   .hello-projects .pepe {
     padding: 6px;
