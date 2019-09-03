@@ -50,8 +50,13 @@ body{
 
 nav{
 
+    @keyframes menu-anim {
+        from{transform: translateX(-150%)}
+        to{transform: translateX(0)}
+    }
+
     .visible{
-        transform: translateX(0%);
+        animation: menu-anim 0.5s forwards;
     }    
 
     .top-active{transform: translateY(6px) rotate(45deg);}

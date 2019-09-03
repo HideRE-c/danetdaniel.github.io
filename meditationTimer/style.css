@@ -71,9 +71,31 @@ body .hero {
           animation: float 3s infinite;
 }
 
+@-webkit-keyframes menu-anim {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes menu-anim {
+  from {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
 nav .visible {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  -webkit-animation: menu-anim 0.5s forwards;
+          animation: menu-anim 0.5s forwards;
 }
 
 nav .top-active {
