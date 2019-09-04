@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito|Vampiro+One&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #000000), to(#5b5b5b));
+  background: linear-gradient(#000000 20%, #5b5b5b 100%);
+}
+
+nav {
+  background: #ecf0f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-height: 45px;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .logo ion-icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+nav .logo h1 {
+  font-family: 'Vampiro One', cursive !important;
+  font-size: 32px;
+}
+
+nav .linksBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 50vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Nunito", sans-serif;
+  padding: 4px;
+  font-size: 20px;
+}
+
+nav .linksBody .link-wrapper .link {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+nav .linksBody .link-wrapper .link:hover {
+  font-size: 23px;
+  font-weight: bold;
+  color: #27ae60;
+  border-bottom: 3px solid #27ae60;
+}
+
+nav .linksBody .link-wrapper .active {
+  color: #27ae60;
+  border-bottom: 2px solid #27ae60;
+}
+/*# sourceMappingURL=style.css.map */
