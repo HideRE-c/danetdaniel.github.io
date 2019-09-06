@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3498DB), color-stop(68.03%, #FFE373), color-stop(89.19%, #FC9C54));
+  background: linear-gradient(180deg, #3498DB 0%, #FFE373 68.03%, #FC9C54 89.19%);
+  min-height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 359px;
+  height: 35px;
+  left: 10px;
+  top: 11px;
+}
+
+nav .logo {
+  color: white;
+  font-size: 3em;
+}
+
+nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  right: 20px;
+  top: 16px;
+}
+
+nav .nav-links .link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+  background: white;
+  width: 74px;
+  height: 24px;
+  border-radius: 20px;
+  padding: 7px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-text {
+  position: absolute;
+  width: 106px;
+  height: 49px;
+  left: 28px;
+  top: 147px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.handle-trip {
+  position: absolute;
+  width: 300px;
+  height: 33px;
+  left: 28px;
+  top: 196px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.lorem {
+  position: absolute;
+  width: 330px;
+  height: 87px;
+  left: 28px;
+  top: 239px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.lorem span {
+  border-bottom: 3px solid white;
+}
+
+.cta {
+  padding: 5px;
+  border-radius: 15px;
+  text-decoration: none;
+  background: white;
+  position: absolute;
+  height: 38px;
+  left: 40%;
+  -webkit-transform: translateX(-35%);
+          transform: translateX(-35%);
+  top: 387px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+/*# sourceMappingURL=styles.css.map */
