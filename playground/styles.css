@@ -1,7 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  min-height: 100vh;
+  background: #191919;
+  background: -webkit-gradient(linear, left top, left bottom, from(#27ae60), to(#191919));
+  background: linear-gradient(#27ae60 0%, #191919 100%);
+  font-family: 'Montserrat';
+}
+
+.box {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  width: 500px;
+  min-height: 250px;
+  display: -ms-grid;
+  display: grid;
+  background: rgba(25, 25, 25, 0.7);
+  border: 2px solid #eeeeee80;
+  border-radius: 5px;
+}
+
+.box h3 {
+  font-family: 'Nunito';
+  letter-spacing: 1px;
+  font-size: 24px;
+  border-bottom: 2px solid white;
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+}
+
+.box form {
+  width: 100%;
+  height: 50%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 20px;
+}
+
+.box form input[type='text'], .box form input[type='password'] {
+  background: rgba(25, 25, 25, 0.5);
+  width: 90%;
+  margin: 10px 5%;
+  height: 30%;
+  border: none;
+  border-radius: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: white;
+  -webkit-transition: all 50ms ease;
+  transition: all 50ms ease;
+}
+
+.box form input[type='text']:focus, .box form input[type='password']:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box form input[type='submit'] {
+  font-family: 'Nunito';
+  font-size: 20px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: auto;
+  margin: 5px 40%;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+  -webkit-transition: all 50ms ease;
+  transition: all 50ms ease;
+}
+
+.box form input[type='submit']:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=styles.css.map */
