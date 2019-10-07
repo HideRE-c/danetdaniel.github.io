@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #1D3752;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-links{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .top-logo{
+        height: auto;
+        color: white;
+    }
+
+    .ltcd-logo{
+        width: 100px;
+        height: auto;
+    }
+
+    .chat-logo{
+        font-size: 40px;
+    }
+
+}
+
+.content{
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Nunito", sans-serif;
+    color: white;
+
+    .bubble{
+        background: #214D72;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 10px 0;
+
+        .bubble-heading{
+            letter-spacing: 1px;
+            font-size: 36px;
+        }
+
+        .bubble-content{
+            font-size: 24px;
+            margin: 5px 0;
+        }
+    }
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #1D3752 0%, #166D8A 70.83%);
+
+
+    .navbar-links{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-link{
+            font-family: "Nunito", sans-serif;
+            font-size: 1.5em;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
