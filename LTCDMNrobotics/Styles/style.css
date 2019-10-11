@@ -6,21 +6,22 @@ body {
           box-sizing: border-box;
   background: #1D3752;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 1fr 5%;
+      grid-template-columns: 5% 1fr 5%;
+  -ms-grid-rows: 80px auto 80px;
+      grid-template-rows: 80px auto 80px;
+      grid-template-areas: "top-links top-links top-links" "margin-left content margin-right" "navbar navbar navbar";
 }
 
 .top-links {
   width: 90%;
   height: 20%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: top-links;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,11 +31,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
 }
 
 .top-links .top-logo {
   height: auto;
   color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .top-links .ltcd-logo {
@@ -47,8 +54,9 @@ body {
 }
 
 .content {
-  width: 100%;
-  padding-left: 40px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,6 +86,30 @@ body {
 .content .bubble .bubble-content {
   font-size: 24px;
   margin: 5px 0;
+}
+
+.content .chat-bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  background: #214D72;
+  padding: 5px;
+  border-radius: 35px;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0;
+}
+
+.content .chat-bubble .chat-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .navbar {
