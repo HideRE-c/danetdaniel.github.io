@@ -1,0 +1,402 @@
+body,html{
+	background-color: #1D3752;
+	margin: 0px;
+	padding: 0px;
+	width: 946px;
+	height: 644px;
+}
+.text1{
+	position: absolute;
+	width: 950px;
+	height: 446px;
+	left: 45px;
+	top: 159px;
+
+	background: #214D72;
+	border-radius: 15px;
+}
+#shrek1{
+	position: absolute;
+	width: 245.13px;
+	height: 446px;
+	left: 0px;
+	top: 0px;
+}
+#title1{
+	position: absolute;
+	width: 140.76px;
+	height: 44px;
+	left: 333.48px;
+	top: 0px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+
+	color: #FFFFFF;
+
+}
+#p1{
+	position: absolute;
+	width: 606.78px;
+	height: 251px;
+	left: 300px;
+	top: 100px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #FFFFFF;
+}
+#a1{
+	position: absolute;
+	width: 211.83px;
+	height: 22px;
+	left: 732px;
+	top: 227px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+
+	color: rgba(255, 255, 255, 0.56);
+}
+.text2{
+	position: absolute;
+	width: 950px;
+	height: 446px;
+	left: 45px;
+	top: 712px;
+
+	background: #214D72;
+	border-radius: 15px;
+}
+#shrek2{
+	position: absolute;
+	width: 245.13px;
+	height: 446px;
+	left: 0px;
+	top: 0px;
+	border-radius: 15px 0px 0px 15px;
+}
+#title2{
+
+	position: absolute;
+	width: 140.76px;
+	height: 44px;
+	left: 333.22px;
+	top: 0px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+
+
+	color: #FFFFFF;
+
+}
+#p2{
+	position: absolute;
+	width: 606.78px;
+	height: 251px;
+	left: 300px;
+	top: 90px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #FFFFFF;
+}
+#a2{
+	position: absolute;
+	width: 211.83px;
+	height: 22px;
+	left: 741px;
+	top: 220px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+
+	color: rgba(255, 255, 255, 0.56);
+
+}
+.text3{
+	position: absolute;
+	width: 950px;
+	height: 446px;
+	left: 45px;
+	top: 1265px;
+
+	background: #214D72;
+	border-radius: 15px;
+}
+#p3{
+	position: absolute;
+	width: 606.78px;
+	height: 251px;
+	left: 250px;
+	top: 1365px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #FFFFFF;
+}
+.star{
+	position: absolute;
+	width: 208px;
+	height: 100px;
+	left: 50px;
+	top: 1600px;
+	color: white;
+	font-size: 25px;
+}
+.fa-facebook{
+	position: absolute;
+	left: 50px;
+	right: 8.33%;
+	top: 1650px;
+	bottom: 8.33%;
+	color: white;
+}
+.fa-instagram{
+	position: absolute;
+	left: 80px;
+	right: 0%;
+	top: 1650px;
+	bottom: 0%;
+	color: white;
+}
+.fa-twitter{
+	position: absolute;
+	left: 120px;
+	right: 0%;
+	top: 1650px;
+	bottom: 0%;
+	color: white;
+}
+.fa-pinterest{
+	position: absolute;
+	left: 160px;
+	right: 0%;
+	top: 1650px;
+	bottom: 0%;
+	color: white;
+}
+.fa-youtube{
+	position: absolute;
+	left: 200px;
+	right: 0%;
+	top: 1650px;
+	bottom: 0%;
+	color: white;
+
+}
+.footer{
+	position: absolute;
+	width: 1440px;
+	height: 230px;
+	left: -4px;
+	top: 1518px;
+
+	background: linear-gradient(180deg, rgba(29, 55, 82, 0) 0%, #1D3752 23.36%);
+}
+#af{
+	position: absolute;
+	width: 75px;
+	height: 29px;
+	left: 67px;
+	top: 200px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: rgba(255, 255, 255, 0.56);
+	text-decoration: none;
+}
+#af1{
+	position: absolute;
+	width: 109px;
+	height: 29px;
+	left: 193px;
+	top: 200px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: rgba(255, 255, 255, 0.56);
+	text-decoration: none;
+}
+#af2{
+	position: absolute;
+	width: 78px;
+	height: 29px;
+	left: 353px;
+	top: 200px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: rgba(255, 255, 255, 0.56);
+	text-decoration: none;
+}
+#hf1{
+	position: absolute;
+	width: 296px;
+	height: 19px;
+	left: 602px;
+	top: 1660px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: rgba(255, 255, 255, 0.6);
+
+}
+#hf2{
+	position: absolute;
+	width: 263px;
+	height: 19px;
+	left: 626px;
+	top: 1681px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+#hf3{
+	position: absolute;
+	width: 316px;
+	height: 19px;
+	left: 600px;
+	top: 1700px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: rgba(255, 255, 255, 0.6);
+
+}
+#atermeni{
+	position: absolute;
+	width: 342px;
+	height: 29px;
+	left: 1177px;
+	top: 1700px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+#shrek3{
+	position: absolute;
+	width: 268.13px;
+	height: 446px;
+	left: 0px;
+	top: 0px;
+	border-radius: 15px 0px 0px 15px;
+}
+#title3{
+	position: absolute;
+	width: 140.76px;
+	height: 44px;
+	left: 333.48px;
+	top: 0px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+
+
+	color: #FFFFFF;
+}
+#p3{
+	position: absolute;
+	width: 606.78px;
+	height: 251px;
+	left: 300px;
+	top: 90px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #FFFFFF;
+
+}
+#a3{
+	position: absolute;
+	width: 211.83px;
+	height: 22px;
+	left: 741px;
+	top: 220px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+
+
+	color: rgba(255, 255, 255, 0.56);
+}
+#adshrek{
+	position: absolute;
+	width: 317px;
+	height: 1106px;
+	left: 1177px;
+	top: 321px;
+
+	background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%), url(.jpg);
+	background-blend-mode: normal, normal;
+	border-radius: 15px;
+}
